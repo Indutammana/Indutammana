@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+Using namespace std;
+int main()
+{
+    int n,pos;
+    cin>>n>>pos;
+    int res;
+    res=n^((pos-1)<<1);
+    cout<<res;
+}
